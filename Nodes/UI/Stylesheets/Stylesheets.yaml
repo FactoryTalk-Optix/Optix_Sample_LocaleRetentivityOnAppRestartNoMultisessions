@@ -1,0 +1,488 @@
+Name: Stylesheets
+Id: g=d66a8c8ddf81632503623fc4f4048db6
+Type: FolderType
+Children:
+- Name: DefaultStyleSheet
+  Id: g=8da2b5865c73184b748c69f73d34bedf
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Id: g=d48d5321f042fd9e2c1cfeed3228ad3a
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=fc397254f44a37944cae78305154ce88
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=2c7ea9b1451eac20a5430cc66567c6dc
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=8ef3364e6f309c8e21add2c04ee48408
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Id: g=df7d33543913f584384851f5b0138083
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Id: g=9fc1cc495eed3dfcf230ee9163c7a729
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=1705a5f00a7f17336fe9ea1d471550dc
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=1d7b97044795161d9894b4afc924b47c
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=8d50ccc4e5aa32eac45783fce8dfe4d4
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=cab5b441e67622623aa1b7cf6e5c84fe
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Id: g=c74b4f654aabbcfd9b57c044d3899811
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=e9eec4ba6a43ba4097cb3db1f3c5576c
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=11d870d122d545f87a745c89d290cd0f
+    Type: HistogramChartStyle
+- Name: FriendlyDark
+  Id: g=6831e7488ec57d724fe6b24893c4c6e2
+  Type: StyleSheet
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: ButtonStyle
+    Id: g=2097358de17be4b40b757bded4ca54ef
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=c4b66cd220e5f9df091c3f77c69bc9d2
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=af748903dc747f5b9045f1bb3c1ae190
+    Type: DataInputStyle
+    Children:
+    - Name: PlaceHolderColor
+      Id: g=f80aeffa4a7a24db8015521bdc214fc6
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#6e7f91"
+  - Name: SwitchStyle
+    Id: g=21601e33b4a190595f6f392b6641bdad
+    Type: SwitchStyle
+    Children:
+    - Name: HandleColor
+      Id: g=9a43e125b98224931089a68807dc97de
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: BackgroundColor
+      Id: g=fd167c3206bfc81fac61814f1ca4a299
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#223748"
+    - Name: HandleBorderColor
+      Id: g=3f0006fa380750fe196be458763835fe
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cfcfcf"
+    - Name: Radius
+      Id: g=04e3b2441a1970f1fb5d8b9e7cc93165
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+  - Name: GaugeStyle
+    Id: g=925095cfbb1161ebf6e97a9fef109b37
+    Type: GaugeStyle
+    Children:
+    - Name: HandleColor
+      Id: g=39beedf81ecd91b5aa78afe9fd137ecc
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#65b2ef"
+    - Name: Radius
+      Id: g=6958acc0ee192fbf706e5a9583ec2043
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+    - Name: HandleSize
+      Id: g=6c75cdd83ff8e22745d8588946b042e5
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 23.0
+  - Name: NavigationPanelStyle
+    Id: g=b297132193a91ec2f6a95b1e21fe5686
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=58b84b986bc98ba0464239608c319bb1
+    Type: ChartStyle
+    Children:
+    - Name: GridColor
+      Id: g=f3615b80495a0092e02182febe4cd94c
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#304155"
+    - Name: AxisColor
+      Id: g=ac20ca4a4315d7d957ff110e8687ee87
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#304155"
+  - Name: DataListStyle
+    Id: g=a58e7f5eadac35f36aedeea4c7d7fc34
+    Type: DataListStyle
+    Children:
+    - Name: BorderWidth
+      Id: g=d74ac5f9977773feb1b60b4c8aa55c4e
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 1.0
+    - Name: HorizontalLineColor
+      Id: g=4601c21dea2b5039616c7be38cc7ce1d
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#151e27"
+    - Name: VerticalLineColor
+      Id: g=b1006f2db4154a9a29810e51b829a857
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#151e27"
+    - Name: HeaderBorderColor
+      Id: g=deb849754bc2d1d6a94e80c59c005407
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#65b2ef"
+    - Name: BorderColor
+      Id: g=bcf404994bc908864b9547b94ca85f78
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00000000"
+    - Name: BackgroundColor
+      Id: g=a32bf8f555b5b0f71b4657988c8f7bd3
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#212d3b"
+    - Name: HeaderTextColor
+      Id: g=b518354b3a7220cae0f68fa20e91b01d
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#65b2ef"
+  - Name: ToolTipStyle
+    Id: g=75e30c54fd550f963a5285473337b4b2
+    Type: ToolTipStyle
+    Children:
+    - Name: BackgroundColor
+      Id: g=c68900d74d92c74a3de66b27c03d2bc3
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#243140"
+  - Name: ScrollBarStyle
+    Id: g=9bd69ac7e65456b3f833abee8b15d258
+    Type: ScrollBarStyle
+    Children:
+    - Name: BackgroundColor
+      Id: g=fa12eb05435e1c235eabf89941271581
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#1b2733"
+  - Name: WindowColor
+    Id: g=306a04f0119ccf66da52bea5554bcbb1
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#151e27"
+  - Name: AccentColor
+    Id: g=a81eea10264d5c0c5f17d93b89f46d9d
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#65b2ef"
+  - Name: InteractiveBackgroundColor
+    Id: g=f75b22a0d8f0835f0c5e04eb456cdf5b
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#212d3b"
+  - Name: InteractiveColor
+    Id: g=a13c3b3474141e9b0a4b9ec3562f9e28
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#28394a"
+  - Name: InteractiveColorGradientPercent
+    Id: g=b03cfb031f39e1858229b179485f8cdd
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TextColor
+    Id: g=d3846343f3621a504f65cbbb4d289ce1
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: BorderWidth
+    Id: g=2accd04c67a4141ac54ba20513931a87
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: DataInputBackgroundColor
+    Id: g=52c421ab1a5f2fba2d30bab171ed273f
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#212d3b"
+  - Name: DataInputTextColor
+    Id: g=d29e877edd8fb3954964d89539feb1a5
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: FontPixelSize
+    Id: g=8788d782f22084cfefbb521d2cfba85c
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 13.0
+  - Name: BorderColor
+    Id: g=190e2c39f879d3fb27c8e88adcd3e62e
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3b5067"
+  - Name: AccordionStyle
+    Id: g=9342ec6b64e0fb4577d291c54ce15716
+    Type: AccordionStyle
+  - Name: Radius
+    Id: g=652e157e410de481e488d1e79e2d2936
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: PieChartStyle
+    Id: g=3c8b95f93735e0e7db8f30fbab8975b1
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=4ff3ae891581d9e45822383d85873ac2
+    Type: HistogramChartStyle
+- Name: FriendlyLight
+  Id: g=31f0ae03578806b6d7dd71949ddcf4af
+  Type: StyleSheet
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: ButtonStyle
+    Id: g=f2520666867ba972a6c9978c50f09e88
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=73325dfe0c21839bd504875f5d67192a
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=590108c6741dbea47cef31976324d599
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=7286e7bcf1c15f6e2f47ae82d541f4a5
+    Type: SwitchStyle
+    Children:
+    - Name: Radius
+      Id: g=b4156e1d6bfb1f6d21945debeff9d4bc
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+    - Name: HandleColor
+      Id: g=0f03447722fffe236020687b6df461ce
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f7f7f7"
+  - Name: GaugeStyle
+    Id: g=7bc0c8a3e1d32109d090ed8b86f8f2f9
+    Type: GaugeStyle
+    Children:
+    - Name: Radius
+      Id: g=a4d1624a041d7eee10d371eef4d58e34
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+    - Name: HandleColor
+      Id: g=fe9bde197a8d0101e0b19640d5e99c40
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f7f7f7"
+  - Name: NavigationPanelStyle
+    Id: g=df650c2815839d719058512b45699668
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=10aed029dd88f7ec7ccb85673bf62cfc
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=99bfa462519f1a7e86744c4ebb101f46
+    Type: DataListStyle
+    Children:
+    - Name: VerticalLineColor
+      Id: g=a5bbb085c1613a9bedf42abe52ef2365
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00000000"
+  - Name: ToolTipStyle
+    Id: g=60331e1a3c4376fd0c73ff34ef2fa94a
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=6792a54c269ca37ff855503e25408bc3
+    Type: ScrollBarStyle
+  - Name: InteractiveColorGradientPercent
+    Id: g=94601dcd16daf2520872b9c4515a9746
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: FontPixelSize
+    Id: g=84656257cb763dccbd6e7f3306342992
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 13.0
+  - Name: DataInputBackgroundColor
+    Id: g=9f341f6519a018a4e9d7be7eb679a201
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: Radius
+    Id: g=fa49483cf2340616ad0c350df2e617b9
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: AccentColor
+    Id: g=5c3cdf3edef6ca9203f5a12d2f7af65f
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#0fafff"
+  - Name: AccordionStyle
+    Id: g=ce0e5bba76d626d51c18acbbe44f9eb8
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=b8057dc494bff5713c2b96230b2815a0
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=c3295e10200e3cb7c466114a6ae2cc8f
+    Type: HistogramChartStyle
+- Name: MaterialDark
+  Id: g=5f6ddf854747918a042bed02a4255005
+  Type: StyleSheet
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: ButtonStyle
+    Id: g=d43b1c4ea47945822faa56549bc6fe22
+    Type: ButtonStyle
+    Children:
+    - Name: PressedColor
+      Id: g=996ee10e74fdd1404b4bfacb5a9a80f7
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#1b1b1b"
+  - Name: ButtonAccentStyle
+    Id: g=d64dc5e32350c5a0e9e44b8f858a2906
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=b246ae03012cfc7474fda0b0b6a95f26
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=da98be6a274858f6cd9ed13c2fbc5f1a
+    Type: SwitchStyle
+    Children:
+    - Name: Radius
+      Id: g=a0f6d6a8cfc40d013b9924d5fd1a9aca
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+  - Name: GaugeStyle
+    Id: g=d04c4824be46b8f4c2df702e3d8e5317
+    Type: GaugeStyle
+    Children:
+    - Name: BackgroundColor
+      Id: g=4bcc9dca8eec6b07945fb6d37720d4a3
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00000000"
+    - Name: Radius
+      Id: g=6d20256f7be2c36f4310e13c237147a6
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+    - Name: HandleColor
+      Id: g=467ef978b9b6cd2f680be2ee4f5d1d2d
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00bcd4"
+    - Name: HandleSize
+      Id: g=f26dde5ab35e55d12a8bb494cd17387c
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 22.0
+  - Name: NavigationPanelStyle
+    Id: g=70a979e1ba9a87b07a0adf84b298fe5f
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=f43411dcd98b2be0e280186fb1c14702
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=85903e1537ac73188523e3eac67cff05
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=5bfa58055a336887de0e16c7709a3cfc
+    Type: ToolTipStyle
+    Children:
+    - Name: BackgroundColor
+      Id: g=8beca0cab91d6df348e595fe9875bc72
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#242424"
+  - Name: ScrollBarStyle
+    Id: g=093eaa8f0943f999dfd376a1591aff6b
+    Type: ScrollBarStyle
+  - Name: WindowColor
+    Id: g=ecbbc352fe3bb195366d82c7c3cbe971
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#121212"
+  - Name: AccentColor
+    Id: g=34ebfaac872a20fe5dfa11458a49c3f2
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#00bcd4"
+  - Name: InteractiveColorGradientPercent
+    Id: g=b768660464ececb7eeb51fe51a956def
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TextColor
+    Id: g=f3d41f85470f8a31514d96bf2e14c34a
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#e4e4e4"
+  - Name: AccentTextColor
+    Id: g=c24b64b4bd283e2ac8e3d3472fcc29d5
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: DataInputBackgroundColor
+    Id: g=8d72e9a65529d7ba48ef989617460d12
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#1c1c1c"
+  - Name: DataInputTextColor
+    Id: g=d51d1cc25d87e294ce1caa4eaadd9ba2
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ebebeb"
+  - Name: InteractiveBackgroundColor
+    Id: g=2a41ce904aec8548045dff404f16a190
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#303030"
+  - Name: BorderWidth
+    Id: g=35ddb2ca0738f0d0fbc53f35ce911d32
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: InteractiveColor
+    Id: g=1ee11e68ca8afc385dd74c641bfb7537
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#242424"
+  - Name: FontPixelSize
+    Id: g=2dc53c1c968016b4ca1a7c9bb76606ce
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 13.0
+  - Name: AccordionStyle
+    Id: g=40eb9f6f07effdf43470af7ebef4d17f
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=0d50dbfe7f0b82aaf58dfc75484b4aba
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=62d94213a1fdf0cece4e4c1bbaf4057e
+    Type: HistogramChartStyle
