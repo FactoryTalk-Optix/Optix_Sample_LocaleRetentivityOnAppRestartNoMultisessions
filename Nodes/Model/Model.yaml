@@ -1,0 +1,8 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: ActualLocale
+  Id: g=50079a3b50c44a1c528e265574efa049
+  Type: BaseDataVariableType
+  DataType: LocaleId
+  Value: "en-US"
